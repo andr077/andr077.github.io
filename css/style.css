@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  max-width: 1920px;
+  width: 100%;
+  background-color: #422C2C;
+  font-size: 100%;
+}
+
+header {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  float: left;
+  z-index: 1000;
+  position: relative;
+  margin-bottom: -200px;
+  margin-left: 3%;
+}
+
+
+header h1 {
+  font-size: 3em;
+  float: left;
+}
+
+header nav {
+  float: left;
+  padding-top: 50px;
+}
+
+header li {
+  list-style-type: none;
+  display: inline-block;
+  width: 130px;
+}
+
+header li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  width:100%;
+  height:100%;
+}
+
+header li:hover {
+  background-color: white;
+  color: black;
+}
+
+header li a:hover {
+  color: black;
+  width:100%;
+  height:100%;
+}
+
+
+.headerimage {
+  z-index: 900;
+}
+
+.headerimage img {
+  z-index: 900;
+  position: relative;
+  max-width: 1920px;
+  width: 100%;
+  max-height: 1080px;
+  height:100%;
+  margin-bottom: -37%;
+  filter: blur(3px);
+  /* Browser Specific */
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+}
+
+.headerimage h1 {
+  z-index: 1100;
+  position: relative;
+  color: white;
+  float: right;
+  margin-right: 20%;
+  font-family: 'Indie Flower', cursive;
+  background: rgba(169, 169, 169, 0.4);
+  width: 600px;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.ux {
+  margin-top: 36%;
+  width:100%;
+  max-width: 1920px;
+  background-color: #201D27;
+  padding-bottom: 150px;
+}
+
+.ux h1 {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  background-color: black;
+}
+
+
+.pic2 {
+  float: right;
+  width: 35%;
+  margin-left: 3%;
+  margin-right: 3%;
+  max-height: 300px;
+  height: 100%;
+}
+
+#text1 {
+  color: white;
+  font-size: 1.3em;
+  background-color: #201D27;
+  width: 40%;
+  padding-top: 3%;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 6%;
+}
+
+.card-skills {
+  height: 500px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: -20px;
+
+}
+
+.card-title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+  margin-bottom: -120px;
+  position: relative;
+  z-index: 1600;
+}
+
+progress {
+  color: #0063a6;
+  font-size: .6em;
+  line-height: 1.5em;
+  text-indent: .5em;
+  width: 15em;
+  height: 1.8em;
+  border: 1px solid #0063a6;
+  background: #fff;
+  margin-right: 10%;
+}
+
+.card-block p {
+  float: left;
+  font-size: 1.3em;
+  color: white;
+  margin-right: 10px;
+}
+
+.card-block {
+  width: 100%;
+  margin-left: 6%;
+  position: relative;
+  z-index: 1500;
+  margin-top: 220px;
+  max-width: 0px;
+}
+
+footer {
+  background-color: white;
+  max-width: 1920px;
+  width: 100%;
+  height: 300px;
+  margin-top: -170px;
+}
+
+#skills {
+  color: white;
+}
+
+#skills h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+  background-color: black;
+}
+
+#skills p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+}
+
+#footer {
+  background-color: white;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+}
+
+#footer p {
+  margin-left: 80%;
+  margin-bottom: -20px;
+}
